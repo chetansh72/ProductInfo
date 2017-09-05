@@ -1,0 +1,16 @@
+server:
+  port: 9003
+eureka:
+  client:
+    service-url: 
+      default-zone: http://localhost:8761/eureka
+management:
+  context-path: /
+
+kafka:
+  topic:
+    itemprofile: itemprofiletopic
+    itemprofilejson: itemprofilejsontopic
+    
+
+ 
